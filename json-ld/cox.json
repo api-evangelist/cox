@@ -1,0 +1,68 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Cox Communications",
+  "description": "Cox Communications is a leading American telecommunications provider offering broadband internet, cable TV, and phone services for residential and business customers.",
+  "url": "https://www.cox.com",
+  "logo": "https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg",
+  "sameAs": [
+    "https://www.linkedin.com/company/cox-communications-inc.",
+    "https://x.com/CoxComm",
+    "https://newsroom.cox.com/home"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer support",
+    "url": "https://www.cox.com/business/support/home.html"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Cox Communications Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "name": "Cox Broadband Internet",
+        "description": "High-speed broadband internet services for residential and business customers.",
+        "url": "https://www.cox.com/business/pricing.html"
+      },
+      {
+        "@type": "Offer",
+        "name": "Cox Cable TV",
+        "description": "Cable television services with extensive channel lineup.",
+        "url": "https://www.cox.com/business/pricing.html"
+      },
+      {
+        "@type": "Offer",
+        "name": "Cox Business Voice",
+        "description": "Business phone and voice services.",
+        "url": "https://www.cox.com/business/home.html"
+      },
+      {
+        "@type": "Offer",
+        "name": "Cox Mobile",
+        "description": "Mobile phone services powered by Cox Communications.",
+        "url": "https://www.cox.com"
+      }
+    ]
+  },
+  "makesOffer": [
+    {
+      "@type": "Service",
+      "name": "Cox Account Management API",
+      "description": "REST API for managing Cox customer accounts, including service subscriptions, billing information, user profiles, and service feature configuration.",
+      "url": "https://www.cox.com/business/support/account-services.html"
+    },
+    {
+      "@type": "Service",
+      "name": "Cox Network Diagnostics API",
+      "description": "REST API providing network diagnostic tools for Cox broadband subscribers.",
+      "url": "https://www.cox.com/business/support/home.html"
+    },
+    {
+      "@type": "Service",
+      "name": "Cox Business Services API",
+      "description": "REST API for Cox Business customers to manage voice, internet, and cloud connectivity services.",
+      "url": "https://www.cox.com/business/home.html"
+    }
+  ]
+}
