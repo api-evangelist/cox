@@ -1,0 +1,85 @@
+aid: cox
+name: Cox Communications
+description: Cox Communications is a leading American telecommunications provider offering broadband internet, cable TV, and phone services for residential and business customers. Cox provides REST APIs for account management, service configuration, network diagnostics, and customer portal integrations across its broadband, cable television, and voice service platforms.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/cox/refs/heads/main/apis.yml
+created: '2026-06-13'
+modified: '2026-06-13'
+specificationVersion: '0.19'
+tags:
+  - Telecommunications
+  - Broadband
+  - Cable TV
+  - Internet
+  - Phone
+  - Account Management
+  - Network Diagnostics
+apis:
+  - aid: cox:cox-account-management-api
+    name: Cox Account Management API
+    description: REST API for managing Cox customer accounts, including service subscriptions, billing information, user profiles, and service feature configuration for broadband, cable TV, and phone services.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://www.cox.com/business/support/myaccount.html
+    baseURL: https://myaccount-business.cox.com/api
+    tags:
+      - Account Management
+      - Customer Portal
+      - Billing
+      - Subscriptions
+    properties:
+      - type: Documentation
+        url: https://www.cox.com/business/support/account-services.html
+  - aid: cox:cox-network-diagnostics-api
+    name: Cox Network Diagnostics API
+    description: REST API providing network diagnostic tools for Cox broadband subscribers, enabling troubleshooting of connectivity issues, signal level monitoring, equipment status checks, and service health assessments.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://www.cox.com/business/support/home.html
+    baseURL: https://www.cox.com/webapi
+    tags:
+      - Network Diagnostics
+      - Broadband
+      - Troubleshooting
+      - Connectivity
+    properties:
+      - type: Documentation
+        url: https://www.cox.com/business/support/home.html
+  - aid: cox:cox-business-services-api
+    name: Cox Business Services API
+    description: REST API for Cox Business customers to manage voice, internet, and cloud connectivity services, including configuration of business phone systems, bandwidth management, and cloud networking options.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://www.cox.com/business/home.html
+    baseURL: https://myaccount.coxbusiness.com/cbma
+    tags:
+      - Business Services
+      - Voice
+      - Cloud Connectivity
+      - Managed Services
+    properties:
+      - type: Documentation
+        url: https://www.cox.com/business/learn/starthere.html
+common:
+  - type: Website
+    url: https://www.cox.com
+  - type: Documentation
+    url: https://www.cox.com/business/support/home.html
+  - type: GitHubOrg
+    url: https://github.com/CoxCommunications
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/cox-communications-inc.
+  - type: Blog
+    url: https://newsroom.cox.com/home
+  - type: Pricing
+    url: https://www.cox.com/business/pricing.html
+  - type: StatusPage
+    url: https://statusgator.com/services/cox-communications
+  - type: X
+    url: https://x.com/CoxComm
+  - type: Plans
+    url: plans/cox-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/cox-rate-limits.yml
+  - type: FinOps
+    url: finops/cox-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

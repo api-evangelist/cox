@@ -1,0 +1,70 @@
+name: Cox Communications Plans and Pricing
+description: Pricing plans for Cox Communications residential and business services including broadband internet, cable TV, and phone services.
+url: https://www.cox.com/business/pricing.html
+created: '2026-06-13'
+modified: '2026-06-13'
+plans:
+  - name: Cox Internet Go-Fast
+    description: Entry-level broadband internet plan for residential customers with speeds up to 300 Mbps, suitable for streaming and basic household use.
+    url: https://www.cox.com/residential/internet.html
+    rate: monthly
+    price: 55.00
+    currency: USD
+    features:
+      - Download speeds up to 300 Mbps
+      - Upload speeds up to 10 Mbps
+      - Unlimited data
+      - 24/7 customer support
+      - Access to Cox WiFi hotspots
+  - name: Cox Internet Go Beyond Fast
+    description: High-speed gigabit broadband plan for power users and larger households requiring fast download and upload speeds for streaming, gaming, and remote work.
+    url: https://www.cox.com/residential/internet.html
+    rate: monthly
+    price: 115.00
+    currency: USD
+    features:
+      - Download speeds up to 2,000 Mbps
+      - Upload speeds up to 100 Mbps
+      - Unlimited data
+      - 24/7 customer support
+      - Access to Cox WiFi hotspots
+      - Advanced security features
+  - name: Cox Business Internet Essentials
+    description: Small business broadband internet plan with reliable connectivity and business-grade support for small offices and retail locations.
+    url: https://www.cox.com/business/pricing.html
+    rate: monthly
+    price: 79.99
+    currency: USD
+    features:
+      - Download speeds up to 300 Mbps
+      - Upload speeds up to 30 Mbps
+      - Static IP address available
+      - 24/7 business support
+      - Business WiFi
+  - name: Cox Business Internet Advanced
+    description: High-capacity business internet plan with fiber-grade speeds for medium to large enterprises requiring reliable bandwidth and advanced networking features.
+    url: https://www.cox.com/business/pricing.html
+    rate: monthly
+    price: 199.99
+    currency: USD
+    features:
+      - Download speeds up to 1,000 Mbps
+      - Upload speeds up to 100 Mbps
+      - Dedicated IP addresses
+      - 24/7 priority business support
+      - Advanced security suite
+      - Cloud connectivity options
+  - name: Cox Business Enterprise Fiber
+    description: Enterprise-grade fiber internet connectivity with dedicated bandwidth and SLA guarantees for large organizations requiring maximum performance and reliability.
+    url: https://www.cox.com/business/pricing.html
+    rate: monthly
+    price: 499.00
+    currency: USD
+    features:
+      - Symmetrical speeds up to 100 Gbps
+      - Dedicated fiber circuit
+      - SLA-backed uptime guarantee
+      - Dedicated account manager
+      - 24/7 NOC support
+      - Multiple static IP addresses
+      - Advanced monitoring and reporting

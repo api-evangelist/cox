@@ -1,0 +1,72 @@
+name: Cox Communications API Rate Limits
+description: Rate limiting policies for Cox Communications APIs including account management, network diagnostics, and business services endpoints.
+url: https://www.cox.com/business/support/home.html
+created: '2026-06-13'
+modified: '2026-06-13'
+rateLimits:
+  - name: Account Management API
+    description: Rate limits for the Cox customer account management API covering account lookups, billing queries, and service configuration changes.
+    target: cox:cox-account-management-api
+    limits:
+      - name: Requests Per Minute
+        value: 60
+        unit: requests
+        window: 60
+        windowUnit: seconds
+        description: Maximum 60 API requests per minute per authenticated customer session.
+      - name: Requests Per Hour
+        value: 1000
+        unit: requests
+        window: 3600
+        windowUnit: seconds
+        description: Maximum 1,000 API requests per hour per authenticated customer account.
+      - name: Requests Per Day
+        value: 10000
+        unit: requests
+        window: 86400
+        windowUnit: seconds
+        description: Maximum 10,000 API requests per day per authenticated customer account.
+    throttling:
+      - statusCode: 429
+        header: Retry-After
+        description: When rate limit is exceeded, a 429 Too Many Requests response is returned with a Retry-After header indicating when the next request can be made.
+  - name: Network Diagnostics API
+    description: Rate limits for the Cox network diagnostic API covering equipment status checks, signal monitoring, and connectivity tests.
+    target: cox:cox-network-diagnostics-api
+    limits:
+      - name: Diagnostic Requests Per Hour
+        value: 100
+        unit: requests
+        window: 3600
+        windowUnit: seconds
+        description: Maximum 100 diagnostic requests per hour to prevent overloading network equipment during peak usage.
+      - name: Speed Test Requests Per Day
+        value: 10
+        unit: requests
+        window: 86400
+        windowUnit: seconds
+        description: Maximum 10 speed test initiations per day per account to manage network resource usage.
+    throttling:
+      - statusCode: 429
+        header: Retry-After
+        description: Diagnostic endpoints return 429 when rate limits are exceeded. Retry-After header specifies the cooldown period.
+  - name: Business Services API
+    description: Rate limits for the Cox Business services API covering voice configuration, cloud connectivity management, and multi-site administration.
+    target: cox:cox-business-services-api
+    limits:
+      - name: Requests Per Minute
+        value: 120
+        unit: requests
+        window: 60
+        windowUnit: seconds
+        description: Business API allows up to 120 requests per minute for higher-volume business automation use cases.
+      - name: Bulk Operations Per Hour
+        value: 50
+        unit: requests
+        window: 3600
+        windowUnit: seconds
+        description: Bulk configuration changes are limited to 50 operations per hour to ensure service stability.
+    throttling:
+      - statusCode: 429
+        header: Retry-After
+        description: Business API returns 429 when rate limits are exceeded with Retry-After header for backoff guidance.

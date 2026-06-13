@@ -1,0 +1,54 @@
+name: Cox Communications FinOps
+description: Financial operations guidance for managing Cox Communications API and service costs, including cost optimization strategies, usage monitoring, and billing management for broadband, cable TV, and business services.
+url: https://www.cox.com/business/pricing.html
+created: '2026-06-13'
+modified: '2026-06-13'
+guidance:
+  - name: Service Plan Optimization
+    description: Regularly review your Cox service plan to ensure you are subscribed to the appropriate tier for your usage needs. Downgrade plans during low-usage periods and upgrade as demand grows to avoid over-provisioning costs.
+    category: Cost Optimization
+    url: https://www.cox.com/business/pricing.html
+  - name: API Usage Monitoring
+    description: Monitor API call volumes through the Cox Business MyAccount portal to track consumption against your service plan limits. Set up usage alerts to identify unexpected spikes that may indicate misconfigured integrations or unauthorized access.
+    category: Usage Monitoring
+    url: https://myaccount-business.cox.com/cbma/
+  - name: Bundle Discount Strategy
+    description: Cox Communications offers significant discounts when bundling internet, voice, and TV services. Evaluate bundled service packages to reduce per-service costs compared to purchasing individual services.
+    category: Cost Reduction
+    url: https://www.cox.com/business/offers/shop-all-offers.html
+  - name: Bandwidth Right-Sizing
+    description: Analyze actual bandwidth utilization reports available through the Cox Business portal to identify whether your current internet plan matches actual usage patterns. Over-provisioned bandwidth is a common source of unnecessary expenditure.
+    category: Resource Optimization
+    url: https://www.cox.com/business/networking/cloud-connectivity.html
+  - name: Contract Term Management
+    description: Cox Business offers reduced monthly rates for customers who commit to multi-year service contracts. Evaluate 2-3 year contract options against month-to-month pricing to calculate total cost of ownership and potential savings.
+    category: Contract Strategy
+    url: https://www.cox.com/business/pricing.html
+  - name: Managed Services vs. Self-Service
+    description: Assess whether managed networking services from Cox Business provide better value than self-managed alternatives. Managed services include monitoring, support, and equipment maintenance that reduce internal IT operational costs.
+    category: Build vs. Buy
+    url: https://www.cox.com/business/cloud-services/industry/software-development.html
+  - name: Early Termination Fee Avoidance
+    description: Review contract terms carefully before modifying or canceling services to avoid early termination fees. Plan service changes to align with natural contract renewal windows to minimize penalties.
+    category: Risk Management
+    url: https://www.cox.com/business/support/account-services.html
+  - name: Tax and Regulatory Fee Awareness
+    description: Cox Communications bills include federal, state, and local taxes and regulatory fees that can add 15-25% to the base service cost. Factor these surcharges into total cost of ownership calculations and budget planning.
+    category: Cost Visibility
+    url: https://www.cox.com/business/support/account-services.html
+costDrivers:
+  - name: Bandwidth Tier
+    description: The primary cost driver for Cox internet services is the selected speed tier. Higher bandwidth tiers command premium pricing but may be necessary for business-critical applications.
+    impact: high
+  - name: Service Bundling
+    description: Bundling multiple Cox services (internet, voice, TV) generates meaningful per-service discounts compared to standalone pricing.
+    impact: medium
+  - name: Contract Length
+    description: Longer contract commitments (1-3 years) unlock lower monthly rates but introduce early termination liability.
+    impact: medium
+  - name: Equipment Rental
+    description: Cox charges monthly fees for rented modems, routers, and set-top boxes. Purchasing compatible customer-owned equipment can eliminate these recurring charges.
+    impact: low
+  - name: Add-On Services
+    description: Premium add-ons such as advanced security, cloud backup, and managed WiFi increase monthly costs but may reduce total IT spend when replacing equivalent third-party services.
+    impact: low
