@@ -1,7 +1,7 @@
 aid: cox
 name: Cox Communications
 description: Cox Communications is a leading American telecommunications provider offering broadband internet, cable TV, and phone services for residential and business customers. Cox provides REST APIs for account management, service configuration, network diagnostics, and customer portal integrations across its broadband, cable television, and voice service platforms.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/cox/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
@@ -18,7 +18,7 @@ apis:
   - aid: cox:cox-account-management-api
     name: Cox Account Management API
     description: REST API for managing Cox customer accounts, including service subscriptions, billing information, user profiles, and service feature configuration for broadband, cable TV, and phone services.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.cox.com/business/support/myaccount.html
     baseURL: https://myaccount-business.cox.com/api
     tags:
@@ -32,7 +32,7 @@ apis:
   - aid: cox:cox-network-diagnostics-api
     name: Cox Network Diagnostics API
     description: REST API providing network diagnostic tools for Cox broadband subscribers, enabling troubleshooting of connectivity issues, signal level monitoring, equipment status checks, and service health assessments.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.cox.com/business/support/home.html
     baseURL: https://www.cox.com/webapi
     tags:
@@ -46,7 +46,7 @@ apis:
   - aid: cox:cox-business-services-api
     name: Cox Business Services API
     description: REST API for Cox Business customers to manage voice, internet, and cloud connectivity services, including configuration of business phone systems, bandwidth management, and cloud networking options.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://www.cox.com/business/home.html
     baseURL: https://myaccount.coxbusiness.com/cbma
     tags:
