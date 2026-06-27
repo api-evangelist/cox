@@ -1,45 +1,13 @@
 {
-  "url": "https://newsroom.cox.com/home",
-  "retrieved": "2026-06-13",
-  "posts": [
-    {
-      "title": "Cox Mobile Highlights Growing Need for AI Literacy during National Safety Month",
-      "url": "https://newsroom.cox.com/2026-06-01-Cox-Mobile-Highlights-Growing-Need-for-AI-Literacy-during-National-Safety-Month",
-      "date": "2026-06-01"
-    },
-    {
-      "title": "Cox Mobile to Offer New Motorola Razr",
-      "url": "https://newsroom.cox.com/2026-05-22-Cox-Mobile-to-Offer-New-Motorola-Razr",
-      "date": "2026-05-22"
-    },
-    {
-      "title": "RapidScale Enables Streamlined Agentic AI Operations with Google Cloud's Gemini Enterprise",
-      "url": "https://newsroom.cox.com/2026-04-22-RapidScale-Enables-Streamlined-Agentic-AI-Operations-with-Google-Clouds-Gemini-Enterprise",
-      "date": "2026-04-22"
-    },
-    {
-      "title": "Cox Mobile Announces $25K Grand Prize and Fan Favorite Winners of Phone Case Design Contest",
-      "url": "https://newsroom.cox.com/2026-04-03-Cox-Mobile-Announces-25K-Grand-Prize-and-Fan-Favorite-Winners-of-Phone-Case-Design-Contest",
-      "date": "2026-04-03"
-    },
-    {
-      "title": "Cox Mobile Announces 22 Boys & Girls Clubs of America Teen Finalists in Second Annual Phone Case Design Contest",
-      "url": "https://newsroom.cox.com/2026-01-21-Cox-Mobile-Announces-22-Boys-Girls-Clubs-of-America-Teen-Finalists-in-Second-Annual-Phone-Case-Design-Contest",
-      "date": "2026-01-21"
-    },
-    {
-      "title": "Cox Mobile Survey Reveals Adults 65+ More Confident on Connected Devices",
-      "url": "https://newsroom.cox.com/2025-11-06-Cox-Mobile-Survey-Reveals-Adults-65-More-Confident-on-Connected-Devices",
-      "date": "2025-11-06"
-    },
-    {
-      "title": "Gen Z and Millennials Embrace AI, Just Don't Ask Them to Tell the Boss",
-      "url": "https://newsroom.cox.com/2025-08-05-Gen-Z-and-Millennials-Embrace-AI,-Just-Dont-Ask-Them-to-Tell-the-Boss",
-      "date": "2025-08-05"
-    }
-  ],
   "repo": "cox",
   "feeds": [
+    {
+      "source": "https://newsroom.cox.com/home",
+      "feed_url": "https://newsroom.cox.com/news-releases?pagetemplate=rss",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    },
     {
       "source": "https://www.linkedin.com/company/cox-communications-inc.",
       "feed_url": "https://www.linkedin.com/company/cox-communications-inc.",
@@ -48,6 +16,6 @@
       "method": "none"
     }
   ],
-  "post_count": 0,
-  "fetched": "2026-06-14T20:42:17Z"
+  "fetched": "2026-06-27T12:03:07Z",
+  "post_count": 0
 }
