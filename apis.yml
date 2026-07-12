@@ -58,6 +58,10 @@ apis:
       - type: Documentation
         url: https://www.cox.com/business/learn/starthere.html
 common:
+  - type: VulnerabilityDisclosure
+    url: security/cox-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/cox-domain-security.yml
   - type: Website
     url: https://www.cox.com
   - type: Documentation
