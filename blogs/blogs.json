@@ -2,11 +2,11 @@
   "repo": "cox",
   "feeds": [
     {
-      "source": "https://newsroom.cox.com/home",
+      "source": "https://newsroom.cox.com/news-releases?pagetemplate=rss",
       "feed_url": "https://newsroom.cox.com/news-releases?pagetemplate=rss",
       "title": "",
       "saved": 0,
-      "method": "discovered"
+      "method": "feed"
     },
     {
       "source": "https://www.linkedin.com/company/cox-communications-inc.",
@@ -16,6 +16,6 @@
       "method": "none"
     }
   ],
-  "fetched": "2026-06-27T12:03:07Z",
-  "post_count": 0
+  "fetched": "2026-07-11T11:50:51Z",
+  "post_count": 5
 }
