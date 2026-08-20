@@ -37,6 +37,11 @@ apis:
       - Account Management
       - Customer Portal
       - Billing
+      - Subscription
+    tags_raw:
+      - Account Management
+      - Customer Portal
+      - Billing
       - Subscriptions
     properties:
       - type: Documentation
@@ -62,6 +67,11 @@ apis:
     humanURL: https://www.cox.com/business/home.html
     baseURL: https://myaccount.coxbusiness.com/cbma
     tags:
+      - Business Services
+      - Voice
+      - Cloud Connectivity
+      - Managed Service
+    tags_raw:
       - Business Services
       - Voice
       - Cloud Connectivity
