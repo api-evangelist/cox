@@ -6,7 +6,7 @@
       "feed_url": "https://newsroom.cox.com/news-releases?pagetemplate=rss",
       "title": "",
       "saved": 0,
-      "method": "feed"
+      "method": "none"
     },
     {
       "source": "https://www.linkedin.com/company/cox-communications-inc.",
@@ -16,6 +16,6 @@
       "method": "none"
     }
   ],
-  "fetched": "2026-08-15T12:22:01Z",
+  "fetched": "2026-08-22T20:20:02Z",
   "post_count": 6
 }
