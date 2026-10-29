@@ -1,4 +1,4 @@
-# Cox Communications (cox)
+# Cox Communications
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,94 +66,106 @@
 
 Cox Communications is a leading American telecommunications provider offering broadband internet, cable TV, and phone services for residential and business customers. Cox provides REST APIs for account management, service configuration, network diagnostics, and customer portal integrations across its broadband, cable television, and voice service platforms.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/cox/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/cox/refs/heads/main/apis.yml)
+**Areas:** Telecommunications · Broadband · Cable TV · Internet · Phone · Account Management · Network Diagnostics
 
-## Tags
+## Cox Communications on APIs.io
 
-- Telecommunications
-- Broadband
-- Cable TV
-- Internet
-- Phone
-- Account Management
-- Network Diagnostics
+Everything profiled for Cox Communications is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/cox/](https://apis.io/providers/cox/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+### APIs (3)
 
-- **Created:** 2026-06-13
-- **Modified:** 2026-06-13
+- [Cox Account Management API](https://apis.io/apis/cox/cox-account-management-api/) — REST API for managing Cox customer accounts, including service subscriptions, billing information, user profiles, and service feature configuration for…
+- [Cox Network Diagnostics API](https://apis.io/apis/cox/cox-network-diagnostics-api/) — REST API providing network diagnostic tools for Cox broadband subscribers, enabling troubleshooting of connectivity issues, signal level monitoring,…
+- [Cox Business Services API](https://apis.io/apis/cox/cox-business-services-api/) — REST API for Cox Business customers to manage voice, internet, and cloud connectivity services, including configuration of business phone systems, bandwidth…
 
-## APIs
+### Published properties
 
-### Cox Account Management API
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-REST API for managing Cox customer accounts, including service subscriptions, billing information, user profiles, and service feature configuration for broadband, cable TV, and phone services.
+#### Security (2)
 
-- **Human URL:** [https://www.cox.com/business/support/myaccount.html](https://www.cox.com/business/support/myaccount.html)
-- **Base URL:** `https://myaccount-business.cox.com/api`
+Authentication, trust centre, and vulnerability disclosure.
 
-#### Tags
+- [Cox Domain Security](https://apis.io/security/cox/cox-domain-security/)
+- [Cox Vulnerability Disclosure](https://apis.io/security/cox/cox-vulnerability-disclosure/)
 
-- Account Management
-- Customer Portal
-- Billing
-- Subscriptions
+#### Plans and pricing (1)
 
-#### Properties
+Published plans, tiers and prices.
 
-- [Documentation](https://www.cox.com/business/support/account-services.html)
+- [Cox Plans Pricing](https://apis.io/plans/cox/cox-plans-pricing/)
 
-### Cox Network Diagnostics API
+#### Rate limits (1)
 
-REST API providing network diagnostic tools for Cox broadband subscribers, enabling troubleshooting of connectivity issues, signal level monitoring, equipment status checks, and service health assessments.
+Published request limits.
 
-- **Human URL:** [https://www.cox.com/business/support/home.html](https://www.cox.com/business/support/home.html)
-- **Base URL:** `https://www.cox.com/webapi`
+- [Cox Rate Limits](https://apis.io/rate-limits/cox/cox-rate-limits/)
 
-#### Tags
+#### FinOps (1)
 
-- Network Diagnostics
-- Broadband
-- Troubleshooting
-- Connectivity
+What the API costs to run, by operation.
 
-#### Properties
+- [Cox Finops](https://apis.io/finops/cox/cox-finops/)
 
-- [Documentation](https://www.cox.com/business/support/home.html)
+## Where to find this API
 
-### Cox Business Services API
-
-REST API for Cox Business customers to manage voice, internet, and cloud connectivity services, including configuration of business phone systems, bandwidth management, and cloud networking options.
-
-- **Human URL:** [https://www.cox.com/business/home.html](https://www.cox.com/business/home.html)
-- **Base URL:** `https://myaccount.coxbusiness.com/cbma`
-
-#### Tags
-
-- Business Services
-- Voice
-- Cloud Connectivity
-- Managed Services
-
-#### Properties
-
-- [Documentation](https://www.cox.com/business/learn/starthere.html)
-
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.cox.com)
 - [Documentation](https://www.cox.com/business/support/home.html)
-- [Git Hub Org](https://github.com/CoxCommunications)
-- [LinkedIn](https://www.linkedin.com/company/cox-communications-inc.)
-- [Blog](https://newsroom.cox.com/home)
 - [Pricing](https://www.cox.com/business/pricing.html)
-- [Status Page](https://statusgator.com/services/cox-communications)
-- [X (Twitter)](https://x.com/CoxComm)
-- [Plans](plans/cox-plans-pricing.yml)
-- [Rate Limits](rate-limits/cox-rate-limits.yml)
-- [Fin Ops](finops/cox-finops.yml)
+- [Blog](https://newsroom.cox.com/home)
+- [Status](https://statusgator.com/services/cox-communications)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 14.4** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 71.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 18.4 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.0** — Telecommunications
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/cox/](https://apis.io/providers/cox/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Cox Communications: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/cox/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
